@@ -15,7 +15,7 @@
 A brief description of your web design project. Explain the purpose, target audience, and main goals of the website.
 
 ## Live Demo
-[View Live Site](#) *(Add your hosted link here)*
+[View Live Site](#) *(https://cs1xd3.cas.mcmaster.ca/~ulkere/team/)*
 
 ## Features
 - Responsive design for mobile, tablet, and desktop
