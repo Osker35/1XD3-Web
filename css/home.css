@@ -1,0 +1,43 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+body {
+    background-color: #D3DAD9;
+}
+
+header {
+    text-align: center;
+    color: #D3DAD9;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background: #44444E;
+    border-radius: 16px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin-bottom: 5%;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+
+.cardheader h2 {
+    color: #3500f7;
+}
+
+h2 {
+    color: #37353E;
+}
+
+h4 {
+    color: #37353E;
+}
+
+img {
+    margin: 20px;
+}
+
