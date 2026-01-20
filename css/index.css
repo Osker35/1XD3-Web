@@ -25,19 +25,98 @@ header h1 {
     letter-spacing: 2px;
 }
 
+.cardheader {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
 .cardheader h2 {
+    width: 100%;
     color: #3500f7;
 }
 
 h2 {
     color: #37353E;
+    text-align: center;
+    font-size: 20pt;
 }
 
 h4 {
     color: #37353E;
+    text-align: center;
 }
 
 img {
-    margin: 20px;
+    margin: 20px auto;
+    display: block;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
+img:hover {
+    transform: scale(1.05);
+}
+
+.members {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 30px;
+    text-align: center;
+}
+
+.members a {
+    color: #D3DAD9;
+    background-color: #44444E;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 10px 20px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.members a:hover {
+    color: #ffffff;
+    text-decoration: none;
+    transform: scale(1.05);
+}
+
+
+
+
+
+/* NAV BUTTONS */
+
+.nav-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 20px;
+}
+
+.nav-btn {
+    text-decoration: none;
+    color: #37353E;
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding: 8px 4px;
+    border-bottom: 2px solid transparent;
+    transition: border-color 0.3s ease;
+}
+
+.nav-btn:hover {
+    border-bottom: 2px solid #37353E;
+}
+
+.nav-btn.active {
+    border-bottom: 2px solid #37353E;
+}
+
+/* .nav-btn i {
+    display: none;
+}
+ */
