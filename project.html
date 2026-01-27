@@ -9,39 +9,69 @@ web page and include your name as author.
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Grand Mechanical Jalapenos</title>
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/project.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <link rel="icon" href="images/jalapeno.png" type="image/png">
-    <style>
-        .resized-image {
-            width: 10%;
-            height: auto;
-        }
-    </style>
 </head>
 
 <body>
+    <nav class="nav-buttons">
+        <a href="index.html" class="nav-btn">
+            <i class="fas fa-home"></i>
+            <span>Home</span>
+        </a>
+        <a href="about.html" class="nav-btn">
+            <i class="fas fa-scroll"></i>
+            <span>About</span>
+        </a>
+        <a href="project.html" class="nav-btn">
+            <i class="fas fa-file"></i>
+            <span>Projects</span>
+        </a>
+        <a href="showcase.html" class="nav-btn">
+            <i class="fas fa-eye"></i>
+            <span>Showcase</span>
+        </a>
+    </nav>
+    
     <div class="container">
-        <h1>PROJECTS</h1>
-        <nav class="nav-buttons">
-            <a href="index.html" class="nav-btn">
-                <i class="fas fa-home"></i>
-                <span>Home</span>
-            </a>
-            <a href="about.html" class="nav-btn">
-                <i class="fas fa-scroll"></i>
-                <span>About</span>
-            </a>
-            <a href="project.html" class="nav-btn">
-                <i class="fas fa-file"></i>
-                <span>Projects</span>
-            </a>
-            <a href="showcase.html" class="nav-btn">
-                <i class="fas fa-eye"></i>
-                <span>Showcase</span>
-            </a>
-        </nav>
-        <img src="images/folder.png" class="resized-image">
-        <p>Projects:</p>
+        <header>
+            <h1>PROJECTS</h1>
+        </header>
+        <div class="projects">
+            <div class="project-section">
+                <h2>Project Name</h2>
+                <img src="images/folder.png" class="project-image"> <!-- project image place holder -->
+                <div class="status">
+                    <strong>Status: <span style="color: grey;">N/A</span></strong> <!-- Status labels: N/A (Grey), Unfinished (red), Development In Progress (dark orange), Finished (green) -->
+                </div>
+                <div class="description">
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. 
+                    Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes.
+                </div>
+            </div>
+            <div class="project-section">
+                <h2>Project Name</h2>
+                <img src="images/folder.png" class="project-image"> <!-- project image place holder -->
+                <div class="status">
+                    <strong>Status: <span style="color: grey;">N/A</span></strong> <!-- Status labels: N/A (Grey), Unfinished (red), Prioritized (Yellow), Finished (green) -->
+                </div>
+                <div class="description">
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. 
+                    Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes.
+                </div>
+            </div>
+            <div class="project-section">
+                <h2>Project Name</h2>
+                <img src="images/folder.png" class="project-image"> <!-- project image place holder -->
+                <div class="status">
+                    <strong>Status: <span style="color: grey;">N/A</span></strong> <!-- Status labels: N/A (Grey), Unfinished (red), Prioritized (Yellow), Finished (green) -->
+                </div>
+                <div class="description">
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. 
+                    Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes.
+                </div>
+            </div>
+        </div>
     </div>
 </body>
